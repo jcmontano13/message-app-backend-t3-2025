@@ -122,7 +122,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+# add temporary comment
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
