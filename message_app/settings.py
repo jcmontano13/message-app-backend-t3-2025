@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-0s7ie1zu6rs_l&qx3e0qk*o8fk5qaw3r_tq4=u9dkyt&kwtog8
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ["*"]
 
 
 # Application definition
@@ -67,7 +67,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'message_app.wsgi.app'
+WSGI_APPLICATION = 'message_app.wsgi.application'
 
 
 # Database
@@ -122,7 +122,7 @@ USE_I18N = True
 
 USE_TZ = True
 
-
+# add temporary comment
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.2/howto/static-files/
 
