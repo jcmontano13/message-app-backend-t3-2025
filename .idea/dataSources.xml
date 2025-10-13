@@ -15,5 +15,19 @@
       <jdbc-url>jdbc:postgresql://ep-twilight-snow-a7uxgu88-pooler.ap-southeast-2.aws.neon.tech:5432/neondb</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="testmysql" uuid="c0b875c5-fa28-45b7-a470-31379bf687b6">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://localhost:3306</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+    <data-source source="LOCAL" name="mysql-clawcloud" uuid="a19491ba-2edb-4f39-912d-778ce7c59b90">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://tcp.us-east-1.clawcloudrun.com:48448</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>
